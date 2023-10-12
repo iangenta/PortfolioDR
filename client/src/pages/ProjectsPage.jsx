@@ -1,6 +1,7 @@
+import { ProjectList } from  '../components/ProjectList'
 export function ProjectPage(){
     return(
-      <div>Project Page</div>
+      <ProjectList/>
     )
   }
   

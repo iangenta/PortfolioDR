@@ -6,6 +6,6 @@ from projects import views
 router = routers.DefaultRouter()
 router.register(r'projects', views.ProjectView,'projects')
 urlpatterns = [
-    path("api/v1",include(router.urls)),
+    path("api/v1/",include(router.urls)),
     path("docs/",include_docs_urls(title="Project API")),    
 ]
