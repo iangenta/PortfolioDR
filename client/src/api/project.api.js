@@ -11,3 +11,6 @@ export const getAllProjects =()=>{
 export const createProject =(project)=>{
     return projectApi.post('/',project)
 }
+export const deleteProject =(id)=>{
+    return projectApi.delete(`/${id}`)
+}
