@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "projects",
+    "testimonials",
+    "experience",
+    "education",
     "coreapi",
 ]
 
